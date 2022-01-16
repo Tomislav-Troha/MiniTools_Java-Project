@@ -81,6 +81,27 @@ public class HelloController {
         }
     }
 
+    @FXML
+    void onBMIClick(ActionEvent event) {
+
+        try {
+            FXMLLoader fxmlLoader = new FXMLLoader();
+            fxmlLoader.setLocation(getClass().getResource("bmi.fxml"));
+
+            Scene scene = new Scene(fxmlLoader.load());
+            Stage stage = new Stage();
+            stage.setTitle("Bmi Calculator");
+            stage.setScene(scene);
+            stage.show();
+
+
+        }
+        catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+
 
 
 }

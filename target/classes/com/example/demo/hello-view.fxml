@@ -12,8 +12,9 @@
             <Font size="70.0" />
          </font>
       </Label>
-      <Button layoutX="100.0" layoutY="303.0" mnemonicParsing="false" onAction="#onCalculatorClick" prefHeight="52.0" prefWidth="147.0" text="Calculator" />
-      <Button layoutX="316.0" layoutY="303.0" mnemonicParsing="false" onAction="#onConverterClick" prefHeight="52.0" prefWidth="147.0" text="Converter" />
-      <Button layoutX="530.0" layoutY="303.0" mnemonicParsing="false" onAction="#onStopwatchClick" prefHeight="52.0" prefWidth="147.0" text="Stopwatch" />
+      <Button layoutX="52.0" layoutY="303.0" mnemonicParsing="false" onAction="#onCalculatorClick" prefHeight="52.0" prefWidth="147.0" text="Calculator" />
+      <Button layoutX="223.0" layoutY="303.0" mnemonicParsing="false" onAction="#onConverterClick" prefHeight="52.0" prefWidth="147.0" text="Converter" />
+      <Button layoutX="388.0" layoutY="303.0" mnemonicParsing="false" onAction="#onStopwatchClick" prefHeight="52.0" prefWidth="147.0" text="Stopwatch" />
+      <Button layoutX="553.0" layoutY="303.0" mnemonicParsing="false" onAction="#onBMIClick" prefHeight="52.0" prefWidth="147.0" text="BMI Calculator" />
    </children>
 </AnchorPane>
