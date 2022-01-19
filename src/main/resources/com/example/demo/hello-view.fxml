@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -12,9 +13,21 @@
             <Font size="70.0" />
          </font>
       </Label>
-      <Button layoutX="52.0" layoutY="303.0" mnemonicParsing="false" onAction="#onCalculatorClick" prefHeight="52.0" prefWidth="147.0" text="Calculator" />
-      <Button layoutX="223.0" layoutY="303.0" mnemonicParsing="false" onAction="#onConverterClick" prefHeight="52.0" prefWidth="147.0" text="Converter" />
-      <Button layoutX="388.0" layoutY="303.0" mnemonicParsing="false" onAction="#onStopwatchClick" prefHeight="52.0" prefWidth="147.0" text="Stopwatch" />
-      <Button layoutX="553.0" layoutY="303.0" mnemonicParsing="false" onAction="#onBMIClick" prefHeight="52.0" prefWidth="147.0" text="BMI Calculator" />
+      <Button layoutX="52.0" layoutY="303.0" mnemonicParsing="false" onAction="#onCalculatorClick" prefHeight="52.0" prefWidth="147.0" text="Calculator">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="223.0" layoutY="303.0" mnemonicParsing="false" onAction="#onConverterClick" prefHeight="52.0" prefWidth="147.0" text="Converter">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="388.0" layoutY="303.0" mnemonicParsing="false" onAction="#onStopwatchClick" prefHeight="52.0" prefWidth="147.0" text="Stopwatch">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="553.0" layoutY="303.0" mnemonicParsing="false" onAction="#onBMIClick" prefHeight="52.0" prefWidth="147.0" text="BMI Calculator">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
    </children>
 </AnchorPane>

@@ -21,7 +21,10 @@
       <TextField fx:id="amount" alignment="CENTER" layoutX="71.0" layoutY="193.0" prefHeight="45.0" prefWidth="124.0">
          <font>
             <Font size="18.0" />
-         </font></TextField>
+         </font>
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor></TextField>
       <Label layoutX="71.0" layoutY="172.0" prefHeight="15.0" prefWidth="114.0" text="Enter Amount">
          <font>
             <Font size="15.0" />
@@ -37,20 +40,35 @@
             <Font size="15.0" />
          </font>
       </Label>
-      <TextField fx:id="tfToCurr" alignment="CENTER" editable="false" layoutX="527.0" layoutY="340.0" prefHeight="39.0" prefWidth="62.0" />
+      <TextField fx:id="tfToCurr" alignment="CENTER" editable="false" layoutX="527.0" layoutY="340.0" prefHeight="39.0" prefWidth="62.0">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor></TextField>
       <TextField fx:id="tfUkupno" alignment="CENTER" editable="false" layoutX="369.0" layoutY="320.0" prefHeight="60.0" prefWidth="151.0">
          <font>
             <Font size="18.0" />
          </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
       </TextField>
       <Button layoutX="110.0" layoutY="391.0" mnemonicParsing="false" onAction="#convertAction" prefHeight="32.0" prefWidth="114.0" text="GET">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <ComboBox fx:id="outputCurrencyComboBox" layoutX="71.0" layoutY="285.0" prefHeight="32.0" prefWidth="192.0" />
-      <ComboBox fx:id="inputCurrencyComboBox" layoutX="71.0" layoutY="347.0" prefHeight="32.0" prefWidth="192.0" />
-      <TextField fx:id="tfFromCurr" alignment="CENTER" editable="false" layoutX="202.0" layoutY="199.0" prefHeight="39.0" prefWidth="62.0" />
+      <ComboBox fx:id="outputCurrencyComboBox" layoutX="71.0" layoutY="285.0" prefHeight="32.0" prefWidth="192.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></ComboBox>
+      <ComboBox fx:id="inputCurrencyComboBox" layoutX="71.0" layoutY="347.0" prefHeight="32.0" prefWidth="192.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></ComboBox>
+      <TextField fx:id="tfFromCurr" alignment="CENTER" editable="false" layoutX="202.0" layoutY="199.0" prefHeight="39.0" prefWidth="62.0">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor></TextField>
       <MenuBar layoutY="-5.0" prefHeight="21.0" prefWidth="755.0">
          <menus>
             <Menu mnemonicParsing="false" text="Tools">

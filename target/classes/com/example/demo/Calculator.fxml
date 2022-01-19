@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
@@ -13,27 +14,81 @@
             <Font size="60.0" />
          </font>
       </Label>
-      <Button fx:id="add_button" layoutX="260.0" layoutY="211.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" text="+" />
-      <Button fx:id="three_button" layoutX="440.0" layoutY="211.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" text="3" />
-      <Button fx:id="two_button" layoutX="380.0" layoutY="211.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" text="2" />
-      <Button fx:id="one_button" layoutX="320.0" layoutY="211.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" text="1" />
-      <Button fx:id="subtraction_button" layoutX="260.0" layoutY="262.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" text="-" />
-      <Button fx:id="six_button" layoutX="440.0" layoutY="262.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" text="6" />
-      <Button fx:id="five_button" layoutX="380.0" layoutY="262.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" text="5" />
-      <Button fx:id="four_button" layoutX="320.0" layoutY="262.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" text="4" />
-      <Button fx:id="multiply_button" layoutX="260.0" layoutY="314.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" text="*" />
-      <Button fx:id="nine_button" layoutX="440.0" layoutY="314.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" text="9" />
-      <Button fx:id="eight_button" layoutX="380.0" layoutY="314.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" text="8" />
-      <Button fx:id="seven_button" layoutX="320.0" layoutY="314.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" text="7" />
-      <Button fx:id="devide_button" layoutX="260.0" layoutY="365.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" text="/" />
-      <Button fx:id="clear_button" layoutX="440.0" layoutY="365.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" text="C" />
-      <Button fx:id="zero_button" layoutX="380.0" layoutY="365.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" text="0" />
-      <Button fx:id="dot_button" layoutX="320.0" layoutY="365.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" text="." />
-      <Button fx:id="is_button" layoutX="332.0" layoutY="415.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="87.0" text="=" />
+      <Button fx:id="add_button" layoutX="260.0" layoutY="211.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" text="+">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="three_button" layoutX="440.0" layoutY="211.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" text="3">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="two_button" layoutX="380.0" layoutY="211.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" text="2">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="one_button" layoutX="320.0" layoutY="211.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" text="1">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="subtraction_button" layoutX="260.0" layoutY="262.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" text="-">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="six_button" layoutX="440.0" layoutY="262.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" text="6">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="five_button" layoutX="380.0" layoutY="262.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" text="5">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="four_button" layoutX="320.0" layoutY="262.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" text="4">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="multiply_button" layoutX="260.0" layoutY="314.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" text="*">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="nine_button" layoutX="440.0" layoutY="314.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" text="9">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="eight_button" layoutX="380.0" layoutY="314.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" text="8">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="seven_button" layoutX="320.0" layoutY="314.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" text="7">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="devide_button" layoutX="260.0" layoutY="365.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" text="/">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="clear_button" layoutX="440.0" layoutY="365.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" text="C">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="zero_button" layoutX="380.0" layoutY="365.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" text="0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="dot_button" layoutX="320.0" layoutY="365.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="50.0" text=".">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="is_button" layoutX="332.0" layoutY="415.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="87.0" text="=">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
       <TextField fx:id="text_field" editable="false" layoutX="261.0" layoutY="146.0" prefHeight="44.0" prefWidth="229.0" text="0">
          <font>
             <Font name="System Bold" size="26.0" />
          </font>
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
       </TextField>
    </children>
 </AnchorPane>

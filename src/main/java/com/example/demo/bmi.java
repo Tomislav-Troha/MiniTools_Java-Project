@@ -56,9 +56,20 @@ public class bmi implements Initializable {
         //System.out.println(weightDouble);
         //System.out.println(heightDouble);
 
-        bmiValue = weightDouble / (heightDouble * heightDouble) * 10000;
 
-        txYourBmi.setText(Decimal_format.format(bmiValue));
+        if(male.isSelected()) {
+            bmiValue = weightDouble / (heightDouble * heightDouble) * 10000;
+
+            txYourBmi.setText(Decimal_format.format(bmiValue + 1.568));
+        }
+
+        else if(female.isSelected()) {
+            bmiValue = weightDouble / (heightDouble * heightDouble) * 10000;
+            txYourBmi.setText(Decimal_format.format(bmiValue - 1.356));
+        }
+
+
+
 
 
     }
